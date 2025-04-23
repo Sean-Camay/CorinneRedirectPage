@@ -1,12 +1,22 @@
 import Button from '@mui/material/Button';
 
 export const ButtonComponent = () => {
-  const handleRedirect = () => {
-    window.open('https://corinnecamay.com', '_blank', 'noopener,noreferrer');
-  };
   return (
     <>
-      <Button className='w-7' onClick={handleRedirect}>
+      <Button
+        variant='text'
+        sx={{
+          backgroundColor: 'black',
+          color: 'white',
+          '&:hover': {
+            backgroundColor: 'black',
+            color: 'white',
+          },
+        }}
+        href='https://corinnecamay.com'
+        target='_blank'
+        rel='noopener noreferrer'
+      >
         Check out my new website{' '}
       </Button>
     </>
