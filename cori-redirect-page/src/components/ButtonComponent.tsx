@@ -5,6 +5,7 @@ export const ButtonComponent = () => {
     <>
       <Button
         variant='text'
+        className='rounded-md'
         sx={{
           backgroundColor: 'black',
           color: 'white',
