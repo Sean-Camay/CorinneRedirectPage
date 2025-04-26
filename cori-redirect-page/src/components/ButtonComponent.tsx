@@ -9,7 +9,7 @@ export const ButtonComponent = () => {
         sx={{
           backgroundColor: 'black',
           color: 'white',
-          borderRadius: '50px', // Makes the button pill-shaped/round
+          borderRadius: '50px',
           padding: '10px 20px',
           '&:hover': {
             backgroundColor: 'black',
