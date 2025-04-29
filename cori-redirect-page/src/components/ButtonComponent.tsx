@@ -20,7 +20,7 @@ export const ButtonComponent = () => {
         target='_blank'
         rel='noopener noreferrer'
       >
-        Check out my new website{' '}
+        Check out my new website
       </Button>
     </>
   );
