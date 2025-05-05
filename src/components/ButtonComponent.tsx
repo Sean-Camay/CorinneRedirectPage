@@ -1,4 +1,4 @@
-import Button from '@mui/material/Button';
+import Button from '@mui/material/Button'
 
 export const ButtonComponent = () => {
   return (
@@ -23,5 +23,5 @@ export const ButtonComponent = () => {
         Check out my new website
       </Button>
     </>
-  );
-};
+  )
+}
