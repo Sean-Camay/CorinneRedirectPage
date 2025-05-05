@@ -3,7 +3,7 @@ export const ImagesComponent = () => {
     <>
       <div className='flex flex-row items-center justify-center'>
         <img
-          src='../../../corinne-hay.png'
+          src='../../../public/corinne-hay.png'
           alt='corinne-hay'
           className='h-36 w-64'
         />
@@ -11,7 +11,7 @@ export const ImagesComponent = () => {
         <h2 className='text-black'>to</h2>
 
         <img
-          src='../../../corinne-camay.png'
+          src='../../../public/corinne-camay.png'
           alt='corinne-camay'
           className='h-36 w-64'
         />
