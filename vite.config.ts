@@ -8,5 +8,6 @@ export default defineConfig({
   plugins: [react(), tailwindcss()],
   build: {
     outDir: 'docs', // write your built site into “docs/”
+    emptyOutDir: true,
   },
 })
