@@ -9,6 +9,7 @@ export const ImagesComponent = () => {
         />
 
         <h2 className='text-black'>to</h2>
+
         <img
           src='../../../corinne-camay.png'
           alt='corinne-camay'
