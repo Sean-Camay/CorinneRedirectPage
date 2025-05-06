@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "www.corinnehay.com",
+  "homepage": "https://Sean-Camay.github.io/CorinneRedirectPage",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
