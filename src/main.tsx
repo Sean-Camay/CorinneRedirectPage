@@ -7,7 +7,7 @@ import App from './App.tsx'
 
 createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <BrowserRouter basename='/CorinneRedirectPage/'>
+    <BrowserRouter basename='/'>
       <StrictMode>
         <App />
       </StrictMode>
